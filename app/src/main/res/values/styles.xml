@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Define a custom style for the app title text -->
+    <style name="AppTheme" parent="Theme.K2024_04_21_liveData_volley">
+        <!-- Other theme attributes -->
+
+        <!-- Define a custom style for the action bar -->
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+    </style>
+
+    <!-- Custom style for the action bar -->
+    <style name="MyActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:layout_gravity">center</item> <!-- Center the title text -->
+        <item name="android:textSize">24sp</item> <!-- Set the text size to 24sp -->
+        <item name="android:textStyle">bold</item> <!-- Make the text bold -->
+    </style>
+</resources>
